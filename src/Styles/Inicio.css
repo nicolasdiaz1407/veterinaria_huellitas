@@ -1,0 +1,148 @@
+html,
+body { 
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+
+}
+@media screen and (max-width: 767px) {
+  .secttion {
+    background: linear-gradient(to right, #ff8080, #ffb3b3) ;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+  }
+  .left-section {
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-top: 20px;
+  }
+  .left-section h1{
+    text-align: center;
+    font-size: 40px;
+  }
+  .left-section p{
+    text-align: center;
+    font-size: 16px;
+  }
+  .right-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .right-section img{
+    width: 370px;
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .secttion {
+    background: linear-gradient(to right, #ff8080, #ffb3b3) ;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+  }
+  .inicio {
+      width: 100%;
+    height: 600px;
+  }
+  
+  .container {
+    display: flex;
+  }
+  .left-section {
+    position: absolute;
+    flex: 1;
+    padding: 20px;
+    padding-top: 80px;
+    padding-right: 400px;
+  }
+  .left-section li{
+    text-decoration: none;
+    list-style-type: none;
+  }
+  .right-section {
+    flex: 1;
+    padding-left: 340px;
+  }
+  .right-section img{
+    width: 600px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1300px)  {
+  .secttion {
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(to right, #ff8080, #ffb3b3) ;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+  }
+  .container {
+    display: flex;
+  }
+  .left-section {
+    position: absolute;
+    flex: 1;
+    padding: 20px;
+    padding-top: 100px;
+    padding-right: 400px;
+  }
+  .left-section h1{
+    text-align: center;
+    font-size: 60px;
+  }
+  .left-section p{
+    text-align: center;
+    font-size: 26px;
+  }
+
+
+  .right-section {
+    flex: 1;
+    padding-left: 540px;
+  }
+  .right-section img{
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1301px){
+  .secttion {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, #ff8080, #ffb3b3) ;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+  }
+  .container {
+    display: flex;
+  }
+  .left-section {
+    position: absolute;
+    flex: 1;
+    padding: 20px;
+    padding-top: 150px;
+    padding-left: 210px;
+    padding-right: 100px;
+  }
+  .left-section h1{
+    text-align: center;
+    font-size: 70px;
+  }
+  .left-section p{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 36px;
+  }
+
+
+  .right-section {
+    flex: 1;
+    padding-left: 900px;
+  }
+  .right-section img{
+    width: 90%;
+  }
+}

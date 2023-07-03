@@ -1,0 +1,20 @@
+.containerr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .content {
+    text-align: center;    
+  }
+  .small-paragraphh {
+    font-size: 28px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .big-paragraphh {
+    font-size: 36px;
+    font-weight: bold;
+  }

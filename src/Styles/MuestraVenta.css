@@ -1,0 +1,248 @@
+
+@media screen and (max-width: 767px) {
+
+  .containeer {
+    display: flex;
+    padding-top: 14%;
+  }
+  
+  .boox {
+    width: 35%;
+    height: 35%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .boox img {
+    width: 80%;
+    height: 60%;  
+    border-radius: 20%;
+    cursor: pointer;
+    transition: all 1.2s;
+  }
+  .boox img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(35, 240, 17, 0.8);
+  }
+  
+  .boox h3 {
+    margin-top: 5px;
+    font-size: 18px;
+  }
+  
+  .boox p {
+    margin-top: 5px;
+    font-size: 11px;
+  }
+  
+  .view-more {
+    text-align: center;
+    padding-bottom: 5%;
+  }
+  
+  .button-verpro {
+    width: 70%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 8px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  .ver-pro{
+    list-style-type: none;
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+  .containeer {
+    display: flex;
+    padding-top: 14%;
+  }
+  
+  .boox {
+    width: 33.33%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .boox img {
+    width: 80%;
+    height: 60%;  
+    border-radius: 20%;
+    cursor: pointer;
+  
+    transition: all 1.2s;
+  }
+  .boox img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 40px rgba(35, 240, 17, 0.8);
+  }
+  
+  .boox h3 {
+    margin-top: 10px;
+    font-size: 24px;
+  }
+  
+  .boox p {
+    margin-top: 5px;
+    font-size: 16px;
+  }
+  
+  .view-more {
+    text-align: center;
+    padding-bottom: 5%;
+  }
+  
+  .button-verpro {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .button-verpro:hover {
+    background-color: #45a049;
+  }
+  .ver-pro{
+    list-style-type: none;
+  }
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1300px) {
+
+.containeer {
+  display: flex;
+  padding-top: 14%;
+}
+
+.boox {
+  width: 33.33%;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.boox img {
+  width: 80%;
+  height: 60%;  
+  border-radius: 20%;
+  cursor: pointer;
+
+  transition: all 1.2s;
+}
+.boox img:hover{
+  transform: scale(1.1);
+  box-shadow: 0 0 40px rgba(35, 240, 17, 0.8);
+}
+
+.boox h3 {
+  margin-top: 10px;
+  font-size: 38px;
+}
+
+.boox p {
+  margin-top: 5px;
+  font-size: 24px;
+}
+
+.view-more {
+  text-align: center;
+  padding-bottom: 8%;
+}
+
+.button-verpro {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.button-verpro:hover {
+  background-color: #13e21d;
+}
+.ver-pro{
+  list-style-type: none;
+}
+}
+
+
+@media screen and (min-width: 1301px){
+  .cont-vent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .containeer {
+    display: flex;
+    padding-top: 14%;
+    padding-left: 4%;
+  }
+  
+  .boox {
+    width: 32%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .boox img {
+    width: 60%;
+    height: 50%;  
+    border-radius: 20%;
+    cursor: pointer;
+  
+    transition: all 1.2s;
+  }
+  .boox img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 40px rgba(35, 240, 17, 0.8);
+  }
+  
+  .boox h3 {
+    margin-top: 10px;
+    font-size: 30px;
+  }
+  
+  .boox p {
+    margin-top: 5px;
+    font-size: 24px;
+  }
+  
+  .view-more {
+    text-align: center;
+    padding-bottom: 8%;
+  }
+  
+  .button-verpro {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 22px;
+  }
+  
+  .button-verpro:hover {
+    background-color: #13e21d;
+  }
+  .ver-pro{
+    list-style-type: none;
+  }
+}
+
+
+
+

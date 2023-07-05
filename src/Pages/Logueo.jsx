@@ -26,7 +26,6 @@ const Logueo = () => {
             placeholder="Correo o Teléfono"
             id="username"
           />
-
           <label className="label-logueo" for="password">
             Contraseña
           </label>
@@ -40,7 +39,7 @@ const Logueo = () => {
           </ul>
         </form>
       </div>
-      <Footer />
+      <Footer/>
     </div>
   );
 };

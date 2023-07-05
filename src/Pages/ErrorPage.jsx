@@ -12,17 +12,14 @@ const ErrorPage = () => {
                 <div class="four_zero_four_bg">
                   <h1 class="text-center ">404</h1>
                 </div>
-
                 <div class="contant_box_404">
                   <h3 class="h2">Parece que estás perdido</h3>
-
                   <p>¡La página que buscas no está disponible!</p>
                   <ul>
                     <li class="link_404">
                     <Link to="/inicio" className="v-inicio">Volver al inicio</Link>
                   </li>
-                  </ul>
-                  
+                  </ul> 
                 </div>
               </div>
             </div>

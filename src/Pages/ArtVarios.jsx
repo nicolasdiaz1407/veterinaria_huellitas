@@ -10,7 +10,6 @@ import arcan2 from "../Img/ArtVarios/Mi proyecto (29).png";
 import arcan3 from "../Img/ArtVarios/Mi proyecto (30).png";
 import arcan4 from "../Img/ArtVarios/Mi proyecto (31).png";
 import NavBar from "../Components/NavBar";
-import Footer from "../Components/Footer";
 
 const ArtVarios = () => {
   return (
@@ -66,7 +65,6 @@ const ArtVarios = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

@@ -1,5 +1,11 @@
 import "../Styles/footer.css";
-import { FaFacebook, FaTwitter, FaInstagram, FaPhone, FaEnvelope} from "react-icons/fa";
+import {
+  FaFacebook,
+  FaTwitter,
+  FaInstagram,
+  FaPhone,
+  FaEnvelope
+} from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -14,8 +20,14 @@ const Footer = () => {
           </div>
           <div className="footer-section">
             <h3>Contáctanos</h3>
-            <p><FaPhone className="contacto-icon"/>+54 3865-635648</p>
-            <p><FaEnvelope className="contacto-icon"/>Huellitas@gmail.com</p>
+            <p>
+              <FaPhone className="contacto-icon" />
+              +54 3865-635648
+            </p>
+            <p>
+              <FaEnvelope className="contacto-icon" />
+              Huellitas@gmail.com
+            </p>
           </div>
           <div className="footer-section">
             <h3>Ubicación</h3>
@@ -39,7 +51,8 @@ const Footer = () => {
           </div>
           <div className="footer-sectionn">
             <p className="copyright">
-              <strong>&copy;</strong>2023 Huellitas. Todos los derechos reservados.
+              <strong>&copy;</strong>2023 Huellitas. Todos los derechos
+              reservados.
             </p>
           </div>
         </footer>

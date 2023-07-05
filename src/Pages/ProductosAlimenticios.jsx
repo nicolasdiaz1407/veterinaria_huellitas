@@ -10,7 +10,6 @@ import alcan2 from "../Img/Alimentos/Mi proyecto (12).png";
 import alcan3 from "../Img/Alimentos/Mi proyecto (15).png";
 import alcan4 from "../Img/Alimentos/Mi proyecto (7).png";
 import NavBar from "../Components/NavBar";
-import Footer from "../Components/Footer";
 
 const ProductosAlimenticios = () => {
   return (
@@ -67,8 +66,6 @@ const ProductosAlimenticios = () => {
           </div>
         </div>
       </div>
-
-      <Footer />
     </div>
   );
 };

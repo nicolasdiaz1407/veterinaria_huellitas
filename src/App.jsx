@@ -8,6 +8,7 @@ import Juguetes from "./Pages/Juguetes";
 import ArtVarios from "./Pages/ArtVarios";
 import Logueo from "./Pages/Logueo";
 import Ingresar from "./Pages/Ingresar";
+import Footer from "./Components/Footer";
 const App = () => {
   return (
     <BrowserRouter>
@@ -22,9 +23,27 @@ const App = () => {
         <Route></Route>
         <Route></Route>
         <Route path="/muestraventa" element={<MuestraVenta/>}></Route>
-        <Route path="/alimentos" element={<ProductosAlimenticios/>}></Route>
-        <Route path="/juguetes" element={<Juguetes/>}></Route>
-        <Route path="/artvarios" element={<ArtVarios/>}></Route>
+        <Route path="/alimentos" Component={ () => (
+          <>
+          <ProductosAlimenticios/>
+          <Footer/>
+          </>
+        )}
+        ></Route>
+        <Route path="/juguetes" Component={ () => (
+          <>
+          <Juguetes/>
+          <Footer/>
+          </>
+        )}
+        ></Route>
+        <Route path="/artvarios" Component={ () => (
+          <>
+          <ArtVarios/>
+          <Footer/>
+          </>
+        )}
+        ></Route>
         <Route path="/logueo" element={<Logueo/>}></Route>
         <Route path="*" element={<ErrorPage/>}></Route>
       </Routes>

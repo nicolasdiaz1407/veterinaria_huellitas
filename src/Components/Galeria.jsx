@@ -24,64 +24,63 @@ const Galeria = () => {
     <div>
       <div id="galeria">
         <div class="container-tit-album">
-        <img src={icalbum} alt="" />
-        <h1 className="titulo-album">Galeria de Fotos de Mascotas</h1>
-      </div>
-      <div className="image-container">
-        <div
-          className={`image-box ${expandedImage === 1 ? "expanded" : ""}`}
-          onClick={() => handleImageClick(1)}
-        >
-          <img src={exp1} alt="Imagen 1" className="image" />
+          <img src={icalbum} alt="" />
+          <h1 className="titulo-album">Galeria de Fotos de Mascotas</h1>
         </div>
-        <div
-          className={`image-box ${expandedImage === 2 ? "expanded" : ""}`}
-          onClick={() => handleImageClick(2)}
-        >
-          <img src={exp2} alt="Imagen 2" className="image" />
+        <div className="image-container">
+          <div
+            className={`image-box ${expandedImage === 1 ? "expanded" : ""}`}
+            onClick={() => handleImageClick(1)}
+          >
+            <img src={exp1} alt="Imagen 1" className="image" />
+          </div>
+          <div
+            className={`image-box ${expandedImage === 2 ? "expanded" : ""}`}
+            onClick={() => handleImageClick(2)}
+          >
+            <img src={exp2} alt="Imagen 2" className="image" />
+          </div>
+          <div
+            className={`image-box ${expandedImage === 3 ? "expanded" : ""}`}
+            onClick={() => handleImageClick(3)}
+          >
+            <img src={exp3} alt="Imagen 3" className="image" />
+          </div>
+          <div
+            className={`image-box ${expandedImage === 4 ? "expanded" : ""}`}
+            onClick={() => handleImageClick(4)}
+          >
+            <img src={exp4} alt="Imagen 4" className="image" />
+          </div>
         </div>
-        <div
-          className={`image-box ${expandedImage === 3 ? "expanded" : ""}`}
-          onClick={() => handleImageClick(3)}
-        >
-          <img src={exp3} alt="Imagen 3" className="image" />
-        </div>
-        <div
-          className={`image-box ${expandedImage === 4 ? "expanded" : ""}`}
-          onClick={() => handleImageClick(4)}
-        >
-          <img src={exp4} alt="Imagen 4" className="image" />
-        </div>
-      </div>
 
-      <div className="image-container">
-        <div
-          className={`image-box ${expandedImage === 5 ? "expanded" : ""}`}
-          onClick={() => handleImageClick(5)}
-        >
-          <img src={exp5} alt="Imagen5" className="image" />
-        </div>
-        <div
-          className={`image-box ${expandedImage === 6 ? "expanded" : ""}`}
-          onClick={() => handleImageClick(6)}
-        >
-          <img src={exp6} alt="Imagen 6" className="image" />
-        </div>
-        <div
-          className={`image-box ${expandedImage === 7 ? "expanded" : ""}`}
-          onClick={() => handleImageClick(7)}
-        >
-          <img src={exp7} alt="Imagen 7" className="image" />
-        </div>
-        <div
-          className={`image-box ${expandedImage === 8 ? "expanded" : ""}`}
-          onClick={() => handleImageClick(8)}
-        >
-          <img src={exp8} alt="Imagen 8" className="image" />
+        <div className="image-container">
+          <div
+            className={`image-box ${expandedImage === 5 ? "expanded" : ""}`}
+            onClick={() => handleImageClick(5)}
+          >
+            <img src={exp5} alt="Imagen5" className="image" />
+          </div>
+          <div
+            className={`image-box ${expandedImage === 6 ? "expanded" : ""}`}
+            onClick={() => handleImageClick(6)}
+          >
+            <img src={exp6} alt="Imagen 6" className="image" />
+          </div>
+          <div
+            className={`image-box ${expandedImage === 7 ? "expanded" : ""}`}
+            onClick={() => handleImageClick(7)}
+          >
+            <img src={exp7} alt="Imagen 7" className="image" />
+          </div>
+          <div
+            className={`image-box ${expandedImage === 8 ? "expanded" : ""}`}
+            onClick={() => handleImageClick(8)}
+          >
+            <img src={exp8} alt="Imagen 8" className="image" />
+          </div>
         </div>
       </div>
-      </div>
-      
     </div>
   );
 };

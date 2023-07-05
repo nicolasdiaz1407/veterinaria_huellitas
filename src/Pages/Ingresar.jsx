@@ -16,8 +16,6 @@ const Ingresar = () => {
                     <Link to="/logueo"><button class="bottom-border-button">Iniciar Sesión</button></Link>
                 </li>
             </ul>
-          
-
             <ul className="is">
                 <li>
                     <Link><button class="bottom-border-button">Registrarse</button></Link>

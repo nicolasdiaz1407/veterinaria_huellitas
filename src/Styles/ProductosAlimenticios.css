@@ -113,7 +113,120 @@
 }
 
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1300px) {
+
+  .prod-gral {
+    height: 220vh;
+    background-image: url("../Img/alyssa-hurley-yekIZ4ltv1o-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+  }
+  .product-container {
+    margin: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  .product-box {
+    width: 22%;
+    height: 22%;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(206, 202, 202, 0.9);
+    transition: all 1s ease;
+  }
+  
+  .product-box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  .product-box:hover {
+    box-shadow: 0 0 30px rgba(145, 143, 143, 0.9);
+  }
+  .product-box h3 {
+    margin-bottom: 10px;
+    color: #000000;
+  }
+  
+  .product-box p {
+    font-size: 14px;
+    color: #000000;
+  }
+}
+
+
+@media screen and (min-width: 1301px) {
+
+  .prod-gral {
+    height: 220vh;
+    background-image: url("../Img/alyssa-hurley-yekIZ4ltv1o-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+  }
+  .product-container {
+    margin: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  .product-box {
+    width: 22%;
+    height: 22%;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(206, 202, 202, 0.9);
+    transition: all 1s ease;
+  }
+  
+  .product-box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  .product-box:hover {
+    box-shadow: 0 0 30px rgba(145, 143, 143, 0.9);
+  }
+  .product-box h3 {
+    margin-bottom: 10px;
+    color: #000000;
+  }
+  
+  .product-box p {
+    font-size: 14px;
+    color: #000000;
+  }
+}
+
+@media screen and (min-width: 1400px) {
 
   .prod-gral {
     height: 220vh;

@@ -1,8 +1,6 @@
-/* Estilos generales */
 
-/* Estilos para dispositivos móviles */
 @media screen and (max-width: 767px) {
-  /* Ajusta tus estilos aquí para dispositivos móviles */
+
   .loguear{
     width: 100%;
     height: 900px;
@@ -14,17 +12,17 @@
   .form-logueo{
     height: 450px;
     width: 300px;
-    transform: translate(10%,5%);
+    transform: translate(10%,10%);
     top: 50%;
     left: 50%;
     border-radius: 10px;
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(1px);
     box-shadow: 0 0 40px rgba(100, 55, 55, 0.6);
     padding: 50px 35px;
 }
 .form-logueo *{
     font-family: 'Poppins',sans-serif;
-    color: #ffffff;
+    color: #000000;
     letter-spacing: 0.5px;
     outline: none;
     border: none;
@@ -49,6 +47,15 @@
   padding-left: 90px;
   list-style-type: none;
 }
+#btn-login{
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid #2611e7;
+}
+#btn-login:hover{
+  border-bottom: 3px solid #ee0909;
+  background-color: transparent;
+}
 #username,
 #password{
     display: block;
@@ -62,7 +69,7 @@
     font-weight: 300;
 }
 ::placeholder{
-    color: #000000;
+    color: #ffffff;
 }
 .social{
   margin-top: 30px;
@@ -88,9 +95,9 @@
 }
 }
 
-/* Estilos para tabletas */
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* Ajusta tus estilos aquí para tabletas */
+
   .loguear{
     width: 100%;
     height: 1000px;
@@ -105,7 +112,7 @@
     transform: translate(60%,10%);
     top: 50%;
     left: 50%;
-    border-radius: 10px;
+    border-radius: 20px;
     backdrop-filter: blur(20px);
     box-shadow: 0 0 40px rgba(100, 55, 55, 0.6);
     padding: 50px 35px;
@@ -136,6 +143,15 @@
   padding-left: 90px;
   list-style-type: none;
 }
+#btn-login{
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid #2611e7;
+}
+#btn-login:hover{
+  border-bottom: 3px solid #ee0909;
+  background-color: transparent;
+}
 #username,
 #password{
     display: block;
@@ -149,7 +165,7 @@
     font-weight: 300;
 }
 ::placeholder{
-    color: #000000;
+    color: #ffffff;
 }
 .social{
   margin-top: 30px;
@@ -175,9 +191,9 @@
 }
 }
 
-/* Estilos para pantallas de escritorio */
+
 @media screen and (min-width: 1024px) and (max-width: 1300px)  {
-  /* Ajusta tus estilos aquí para pantallas de escritorio */
+
 
   .loguear{
     width: 100%;
@@ -190,7 +206,7 @@
   .form-logueo{
     height: 490px;
     width: 400px;
-    transform: translate(108%,-5%);
+    transform: translate(90%,20%);
     top: 50%;
     left: 50%;
     border-radius: 10px;
@@ -225,6 +241,15 @@
   padding-left: 130px;
   list-style-type: none;
 }
+#btn-login{
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid #2611e7;
+}
+#btn-login:hover{
+  border-bottom: 3px solid #ee0909;
+  background-color: transparent;
+}
 #username,
 #password{
     display: block;
@@ -237,7 +262,7 @@
     font-weight: 300;
 }
 ::placeholder{
-    color: #000000;
+    color: #ffffff;
 }
 .social{
   margin-top: 30px;
@@ -265,6 +290,104 @@
 }
 
 @media screen and (min-width: 1301px){
+  .loguear{
+    width: 100%;
+    height: 900px;
+    background-image: url("../Img/Ingresar/helena-lopes-AJe5BEybfXE-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .form-logueo{
+    height: 520px;
+    width: 400px;
+    transform: translate(120%,10%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 40px rgba(100, 55, 55, 0.6);
+    padding: 50px 35px;
+}
+.form-logueo *{
+    font-family: 'Poppins',sans-serif;
+    color: #000000;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+.form-logueo h3{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+    color: #000;
+}
+
+.label-logueo{
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.btn-loguear{
+  padding-top: 50px;
+  padding-left: 130px;
+  list-style-type: none;
+}
+#btn-login{
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid #2611e7;
+  font-size: 18px;
+}
+#btn-login:hover{
+  border-bottom: 3px solid #ee0909;
+  background-color: transparent;
+}
+#username,
+#password{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+::placeholder{
+    color: #ffffff;
+    font-size: 10px;
+}
+.social{
+  margin-top: 30px;
+  display: flex;
+}
+.social div{
+  background: red;
+  width: 150px;
+  border-radius: 3px;
+  padding: 5px 10px 10px 5px;
+  background-color: rgba(255,255,255,0.27);
+  color: #eaf0fb;
+  text-align: center;
+}
+.social div:hover{
+  background-color: rgba(27, 25, 25, 0.47);
+}
+.social .fb{
+  margin-left: 25px;
+}
+.social i{
+  margin-right: 4px;
+}
+}
+
+
+
+@media screen and (min-width: 1400px){
   .loguear{
     width: 100%;
     height: 1100px;
@@ -310,6 +433,15 @@
   padding-left: 130px;
   list-style-type: none;
 }
+#btn-login{
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid #2611e7;
+}
+#btn-login:hover{
+  border-bottom: 3px solid #ee0909;
+  background-color: transparent;
+}
 #username,
 #password{
     display: block;
@@ -323,7 +455,7 @@
     font-weight: 300;
 }
 ::placeholder{
-    color: #000000;
+    color: #ffffff;
 }
 .social{
   margin-top: 30px;

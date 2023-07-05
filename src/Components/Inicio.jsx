@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import "../Styles/Inicio.css";
 import Mascotas from "../Img/Mi proyecto2.png"
 import Header from "./Header";
@@ -50,9 +50,6 @@ const Inicio = () => {
               varius.Cras nec mauris ac erostere <br />
               sed tincidunt felis luctus sed mirte posa requier.
             </p>
-          </div>
-          <div class="right-section">
-            <img src={Mascotas} alt="Imagen grande" />
           </div>
         </div>
         </div>

@@ -25,8 +25,8 @@ const App = () => {
         <Route path="/alimentos" element={<ProductosAlimenticios/>}></Route>
         <Route path="/juguetes" element={<Juguetes/>}></Route>
         <Route path="/artvarios" element={<ArtVarios/>}></Route>
-
         <Route path="/logueo" element={<Logueo/>}></Route>
+        <Route path="*" element={<ErrorPage/>}></Route>
       </Routes>
     </BrowserRouter>
   );

@@ -11,7 +11,7 @@ const PEstetica = () => {
             <div class="overlay">
               <p class="name">
                 <strong>
-                  Florencia Quinteros 
+                  Florencia Veliz 
                 </strong>
               </p>
               <p class="profession">Estética</p>
@@ -30,7 +30,7 @@ const PEstetica = () => {
             <img src={Imgestetica} alt="" className="ic-estetica" />
             <div class="overlay">
               <p class="name">
-                <strong>Agustina Ruiz</strong>
+                <strong>Agustina Miranda</strong>
               </p>
               <p class="profession">Estética</p>
             </div>

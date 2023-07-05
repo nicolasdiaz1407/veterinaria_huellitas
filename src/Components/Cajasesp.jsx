@@ -5,7 +5,7 @@ const Cajasesp = () => {
     <div>
    
       <div class="caja">
-        <h1 class="titulo">Bienvenidos a nuestra website Huellitas</h1>
+        <h1 class="titulo">Bienvenidos a nuestro website Huellitas</h1>
         <p class="frase">
           "Las mascotas son seres que llenan nuestros días de amor incondicional
           y alegría, convirtiéndose en compañeros fieles que iluminan nuestras
@@ -27,7 +27,7 @@ const Cajasesp = () => {
               Aliquam tempus ipsum vitae diam malesuada, at posuere elit
               tristique. Ut quis elit et urna posuere convallis nec sed quam.{" "}
             </p>
-            <button className="btn btn-danger">Botón</button>
+            <button className="borde-btn">Leer más</button>
           </div>
           <div className="right-box"></div>
         </div>
@@ -43,9 +43,9 @@ const Cajasesp = () => {
               non rutrum nisl consectetur ut. Pellentesque habitant morbi
               tristique senectus et netus et malesuada fames ac turpis egestas.
               Aliquam tempus ipsum vitae diam malesuada, at posuere elit
-              tristique. Ut quis elit et urna posuere convallis nec sed quam.{" "}
+              tristique. Ut quis elit et urna posuere convallis nec sed quam.
             </p>
-            <button className="btn btn-danger">Botón</button>
+            <button className="borde-btn">Leer más</button>
           </div>
           <div className="right-box2"></div>
         </div>
@@ -63,7 +63,7 @@ const Cajasesp = () => {
               Aliquam tempus ipsum vitae diam malesuada, at posuere elit
               tristique. Ut quis elit et urna posuere convallis nec sed quam.{" "}
             </p>
-            <button className="btn btn-danger">Botón</button>
+            <button className="borde-btn">Leer más</button>
           </div>
           <div className="right-box3"></div>
         </div>

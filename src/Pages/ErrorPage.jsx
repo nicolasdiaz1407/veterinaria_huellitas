@@ -1,10 +1,11 @@
 import React from "react";
 import "../Styles/ErrorPage.css";
+import { Link } from "react-router-dom";
 const ErrorPage = () => {
   return (
     <>
       <section class="page_404">
-        <div class="container">
+        <div class="container-error">
           <div class="row">
             <div class="col-sm-12 ">
               <div class="col-sm-10 col-sm-offset-1  text-center">
@@ -16,10 +17,12 @@ const ErrorPage = () => {
                   <h3 class="h2">Parece que estás perdido</h3>
 
                   <p>¡La página que buscas no está disponible!</p>
-
-                  <a href="/" class="link_404">
-                    Volver al inicio
-                  </a>
+                  <ul>
+                    <li class="link_404">
+                    <Link to="/inicio" className="v-inicio">Volver al inicio</Link>
+                  </li>
+                  </ul>
+                  
                 </div>
               </div>
             </div>

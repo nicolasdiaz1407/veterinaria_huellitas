@@ -1,4 +1,7 @@
-
+  .v-inicio{
+    text-decoration: none;
+    color: #000000;
+  }
 @media screen and (max-width: 767px) {
 
   .nom-vet{
@@ -9,29 +12,118 @@
 
   }
   .nav-item{
-    width: 45%;
+    width: 44%;
     font-size: 18px;    
     margin: 2%;
     transition: transform 0.1s ease;
-    transition: all 0.8s; 
+    transition: all 1s; 
     border-radius: 30%;  
   }
+  .inicio,
+  .servicios,
+  .personal,
+  .productos,
+  .galeria,
+  .contacto{
+    transition: padding-left 1s;
+  }
+  .inicio:hover{
+    padding-left: 20px;
+  }
+  .servicios:hover{
+    padding-left: 20px;
+  }
+  .personal:hover{
+    padding-left: 20px;
+  }
+  .productos:hover{
+    padding-left: 20px;
+  }
+  .galeria:hover{
+    padding-left: 20px;
+  }
+  .contacto:hover{
+    padding-left: 20px;
+  }
+
   .nav-item:hover{
-    box-shadow: 0 0 20px rgba(165, 131, 131, 0.8);
     border-radius: 10%;
+    background: #b78c8c;
   }
   .dropdown-menu{
     background: transparent;
+    border: none;
+  }
+  .dropdown-item{
+    width: 90%;
   }
   .dropdown-item:hover{
-    background: transparent;
-    box-shadow: 0 0 20px rgba(165, 131, 131, 0.8);
+    background: hsl(0, 53%, 79%);
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 
+.nom-vet{
+    font-size: 25px;
+  }
+  #ul-nav{
+    padding-left: 4px;
 
+  }
+  .nav-item{
+    width: 22%;
+    font-size: 18px;    
+    margin: 2%;
+    transition: transform 0.1s ease;
+    transition: all 0.8s; 
+    border-radius: 30%;  
+
+  }
+  .nav-item:hover{
+    box-shadow: 0 0 20px rgba(165, 131, 131, 0.8);
+    border-radius: 10%;
+    background: #b78c8c;
+  }
+  .inicio,
+  .servicios,
+  .personal,
+  .productos,
+  .galeria,
+  .contacto{
+    transition: padding-left 1s;
+        color: #fff;
+  }
+  .inicio:hover{
+    padding-left: 20px;
+  }
+  .servicios:hover{
+    padding-left: 20px;
+  }
+  .personal:hover{
+    padding-left: 20px;
+  }
+  .productos:hover{
+    padding-left: 20px;
+  }
+  .galeria:hover{
+    padding-left: 20px;
+  }
+  .contacto:hover{
+    padding-left: 20px;
+  }
+  .dropdown-menu{
+    background: transparent;
+    border: none;
+  }
+  .dropdown-item{
+    width: 100%;
+    color: #000000;
+  }
+  .dropdown-item:hover{
+    background: hsl(0, 53%, 79%);
+    box-shadow: 0 0 20px rgba(165, 131, 131, 0.8);
+  }
 }
 
 
@@ -41,11 +133,11 @@
     font-size: 35px;
   }
   #ul-nav{
-    padding-left: 40px;
+    padding-left: 220px;
 
   }
   .nav-item{
-    font-size: 30px;    
+    font-size: 22px;    
     margin: 2%;
     transition: transform 0.1s ease;
     transition: all 0.8s; 
@@ -58,6 +150,8 @@
   }
   .dropdown-menu{
     background: transparent;
+    box-shadow: 0 0 20px rgba(198, 177, 177, 0.8);
+    border: none;
   }
   .dropdown-item{
     font-size: 22px;
@@ -70,11 +164,40 @@
 
 
 @media screen and (min-width: 1301px){
-  .nom-vet{
-    font-size: 35px;
-  }
   #ul-nav{
-    padding-left: 470px;
+    padding-left: 350px;
+    margin: 20px;
+  }
+
+  .nav-item{
+    font-size: 22px;    
+    margin: 2%;
+    transition: transform 0.1s ease;
+    transition: all 0.8s; 
+    border-radius: 20%;
+  }
+  .nav-item:hover{
+    box-shadow: 0 0 20px rgba(165, 131, 131, 0.8);
+    border-radius: 30%;
+
+  }
+  .dropdown-menu{
+    background: transparent;
+    box-shadow: 0 0 20px rgba(198, 177, 177, 0.8);
+    border: none;
+  }
+  .dropdown-item{
+    font-size: 22px;
+  }
+  .dropdown-item:hover{
+    background: transparent;
+    box-shadow: 0 0 20px rgba(165, 131, 131, 0.8);
+  }
+}
+
+@media screen and (min-width: 1400px){
+  #ul-nav{
+    padding-left: 100px;
 
   }
   .nav-item{
@@ -91,6 +214,8 @@
   }
   .dropdown-menu{
     background: transparent;
+    box-shadow: 0 0 20px rgba(198, 177, 177, 0.8);
+    border: none;
   }
   .dropdown-item{
     font-size: 22px;
@@ -100,3 +225,4 @@
     box-shadow: 0 0 20px rgba(165, 131, 131, 0.8);
   }
 }
+

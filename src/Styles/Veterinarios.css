@@ -1,6 +1,6 @@
 
 @media screen and (max-width: 767px) {
-container-tit-salud {
+.container-tit-salud {
     width: 100%;
     background: transparent;
     text-align: center;
@@ -120,6 +120,7 @@ container-tit-salud {
 }
 .container {
     display: flex;
+    padding-top: 50px;
     padding-bottom: 50px;
   }
 .dogtor{
@@ -127,7 +128,8 @@ container-tit-salud {
 }  
   .oval-box {
     width: 200px;
-    height: 200px;
+    height: 180px;
+    margin-left: 10%;
     border-radius: 50% / 70% 70% 30% 30%; 
     background-image: url('../Img/What\ Do\ Vets\ Say_.jpg');
     background-size: cover;
@@ -140,7 +142,8 @@ container-tit-salud {
   }
   .oval-box2 {
     width: 200px;
-    height: 200px;
+    height: 180px;
+    margin-left: 10%;
     border-radius: 50% / 70% 70% 30% 30%; 
     background-image: url('../Img/When\ Can\ I\ Have\ My\ Dog\ Safely\ Spayed\ or\ Neutered_\ –\ Dogster.jpg');
     background-size: cover;
@@ -153,7 +156,8 @@ container-tit-salud {
   }
   .oval-box3 {
     width: 200px;
-    height: 200px;
+    height: 180px;
+    margin-left: 10%;
     border-radius: 50% / 70% 70% 30% 30%; 
     background-image: url('../Img/The\ Hottest\ Animal\ Doctor\ Ever\ That’ll\ Make\ You\ Want\ To\ Get\ Your\ Pet\ Checked.jpg');
     background-size: cover;
@@ -192,12 +196,12 @@ container-tit-salud {
   
   .name {
     margin: 0;
-    font-size: 16px;
+    font-size: 14px;
   }
   
   .profession {
     margin: 0;
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 

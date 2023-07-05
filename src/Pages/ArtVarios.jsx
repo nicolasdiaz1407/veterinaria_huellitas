@@ -51,7 +51,7 @@ const ArtVarios = () => {
           </div>
           <div class="product-box">
             <img src={arcan3} alt="Producto 3" />
-            <h3>Correo</h3>
+            <h3>Correa</h3>
             <p>Precio: $3.150</p>
           </div>
           <div class="product-box">

@@ -24,18 +24,24 @@ const NavBar = () => {
               class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
               id="ul-nav"
             >
+              <div className="inicio">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/inicio">
-                  Inicio
-                </a>
+                <li class="nav-link">
+                <Link to="/inicio" className="v-inicio">Inicio</Link>
+                </li>
               </li>
-              <li class="nav-item">
+              </div>
+              <div className="servicios">
+                <li class="nav-item">
                 <a class="nav-link" href="#servicios">
                   Servicios
                 </a>
               </li>
+              </div>
+                     <div className="personal">         
               <li class="nav-item dropdown">
-                <a
+
+                  <a
                   class="nav-link dropdown-toggle"
                   href="#"
                   id="navbarScrollingDropdown"
@@ -45,6 +51,8 @@ const NavBar = () => {
                 >
                   Nuestro personal
                 </a>
+
+                                
                 <ul
                   class="dropdown-menu"
                   aria-labelledby="navbarScrollingDropdown"
@@ -61,21 +69,31 @@ const NavBar = () => {
                   </li>
                 </ul>
               </li>
-              <li class="nav-item">
+              </div>
+              <div className="productos">
+                <li class="nav-item">
                 <a class="nav-link" href="#productos">
                   Productos
                 </a>
               </li>
-              <li class="nav-item">
+              </div>
+              
+              <div className="contacto">
+                <li class="nav-item">
                 <a class="nav-link" href="#galeria">
                   Galeria
                 </a>
               </li>
-              <li class="nav-item">
+              </div>
+              
+              <div className="contacto">
+                <li class="nav-item">
                 <a class="nav-link" href="#contacto">
                   Contacto
                 </a>
               </li>
+              </div>
+              
             </ul>
           </div>
         </div>
